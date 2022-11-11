@@ -174,9 +174,9 @@ export default Vue.component(name, getVueOptions(name));
 @background-color:#084c41;
 
 .resume {
-  font-family:'Roboto' !important;
+  font-family:'Roboto-Regular' !important;
   background:#f3f3f3;
-  border-radius: 2%;
+  border-radius: 16px;
   overflow-x: hidden;
 }
 a {
@@ -211,7 +211,7 @@ a {
     padding-top:0;
     margin-top:0;
     letter-spacing:10px;
-    font-weight:400;
+    font-weight:700;
   }
   div {
     margin-top:-5px;
@@ -268,8 +268,7 @@ ul {
 }
 p {
   margin-top:0;
-  margin-bottom:25px;
-  font-family:'Roboto', sans-serif;
+  margin-bottom:25px; 
   font-weight:300;
   font-size:10pt;
   line-height:17pt;
@@ -338,8 +337,7 @@ h4 {
     margin-bottom:5px;
     display:inline-block;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    .headline {
-      font-weight:400;
+    .headline {    
       display:block;
       font-size:15px;
       color:rgba(0,0,0,0.870588);
@@ -409,8 +407,7 @@ h4 {
   text-align:left;
   color:#ffffff;
   color:rgba(255,255,255,0.59);
-  background-color:@background-color;
-  overflow:hidden;
+  background-color:@background-color;  
   display:block;
   .section-headline {
     color:rgba(255,255,255,0.54);
