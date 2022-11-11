@@ -20,30 +20,51 @@ experience:
   timeperiod: since Sep 2021
   description: Guiding the technical direction and architecture design of game engine.
     Leading a group of Develops design/develop components, data layer and automation.
-    Looking into migration of our engine infrastructure to AWS.
+    Looking into migrating of our engine infrastructure to AWS.
     Onboarding and mentoring new developers and developers from other team.
     What I most proud of is creating a "best idea wins" culture in the team.
-  website: https://example.com
+  website: https://www.gamesglobal.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Derivco
+  position: Senior Developer Level 1
+  timeperiod: July 2013 - September 2021
+  description: I have Worked on different products in various teams across the company.
+    Improving development process, creating tool to facilitate code/branch merging.
+    Helping other teams to improve game performance and helping other teams to solve difficult problems.
+    Leading technical guild, initiating technical innovation and doing code review.
+  website: https://www.derivco.co.za
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Derivco
+  position: Software Developer Level 2
+  timeperiod: November 2009 - July 2013
+  description: Working on various games on different technologies, C++, Actionscript on Adobe Flash in the beginning.
+    As the company's focus shift to mobile in 2012, I worked on JavaScript, HTML5 and CSS.
+    In earlier days, browser and Javascript is not as powerful, I had to learning how to write effeicent code to run game in the browser.
+  website: https://www.derivco.co.za
+
+- company: Scansoft Technologies
+  position: Full stack Developer
+  timeperiod: July 2007 - October 2009
+  description: Working on Intelligent Building Management System (IBMS) with VC++ .net and SQL.
+    Working in a small company enables me to working on entire technologies stack. 
+    I worked on hardware driver, Database design, Client development with various open source libraries.
+    I also gained precious experience of interacting directly with our Clients like City of Capetown, Old Mutual, Sanlam, Shell and Engen.
+  website: http://www.scansoft.co.za/
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: MSc Computer Science - University of the Western Cape
+  timeperiod: Sep 2003 - Sep 2006
+  description: I worked on earlier days of Voice over Internet Protocol technology. Focusing on enhancing the Session Initiation Protocol
+    Presence model to protect sensitive geographic information which can be easily integrated into IP telephony services in order to 
+    reducing users' privacy concerns and increasing the user satisfaction. I have been granted with Center of Excellence scholarship and graduated with Cum Laude.
+  website: https://www.uwc.ac.za/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Science - China University of Petroleum
+  timeperiod: September 1996 – June 2000
+  description: Major in Electrical Engineering, I had not only gained the knowlege of industrial electrical engineering,
+    but also learned Advanced Mathematics, Principle of computer and C programming language,
+    which layed a good fundation for my programming skills.   
+  website: https://english.upc.edu.cn/
 
 # skill level goes from 0 to 100
 skills:
