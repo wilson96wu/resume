@@ -2,16 +2,14 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: Wilson
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  last: Wu
+about: I am currently working as a Senior Developer Level 2/Tech Lead in the Gaming Industry. I gained my master's degree in computer science in 2007.   Worked as full stack developer from 2007 to 2009 by building intelligent building management systems with C++ and SQL. In 2009, I joined the gaming industry, became a front-end developer working on C++, ActionScript, JavaScript, and typescript. I created my first game engine in 2012, which became one of the most successful and long-standing game engines in our company. More than a hundred games have been developed on this engine, including many of our company's legendary games. This engine is still in use today in 2022. Since 2019, I have been working on a new game engine focused on fast development and maintainability. For fast delivery, we build our engine on top of Cocos Creator to utilize its UI Editing and templating capability. For maintainability, we focus on re-usability, unit testing and automation, aiming to use a single code base to drive a large number of games. Currently, the entire department is adopting this new engine. For some of our games, we are able to reduce our development time from 3 months to a week.
 position: Software Developer
 
 birth:
-  year: 1990
+  year: 1977
   location: New York
 
 # you may add more experiences by duplicating the template

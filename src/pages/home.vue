@@ -6,6 +6,14 @@
   </div>
   <h3 class="title">best-resume-ever</h3>
   <div class="previews">
+      <div class="preview">
+      <router-link v-bind:to="'/resume/best'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-best.png" />
+          <span>best</span>
+        </div>
+      </router-link>
+    </div>
     <div class="preview">
       <router-link v-bind:to="'/resume/material-dark'">
         <div class="preview-wrapper">
