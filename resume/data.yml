@@ -6,19 +6,20 @@ name:
   middle:
   last: Wu
 about: I am currently working as a Senior Developer Level 2/Tech Lead in the Gaming Industry. I gained my master's degree in computer science in 2007.   Worked as full stack developer from 2007 to 2009 by building intelligent building management systems with C++ and SQL. In 2009, I joined the gaming industry, became a front-end developer working on C++, ActionScript, JavaScript, and typescript. I created my first game engine in 2012, which became one of the most successful and long-standing game engines in our company. More than a hundred games have been developed on this engine, including many of our company's legendary games. This engine is still in use today in 2022. Since 2019, I have been working on a new game engine focused on fast development and maintainability. For fast delivery, we build our engine on top of Cocos Creator to utilize its UI Editing and templating capability. For maintainability, we focus on re-usability, unit testing and automation, aiming to use a single code base to drive a large number of games. Currently, the entire department is adopting this new engine. For some of our games, we are able to reduce our development time from 3 months to a week.
-position: Software Developer
+position: Tech Lead
 
-birth:
-  year: 1977
-  location: New York
+#birth:
+#  year: 1977
+#  location: China
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: Games Global
+  position: Senior Developer Level 2/Tech Lead
+  timeperiod: since Sep 2021
+  description: Guiding the technical direction and architecture design of game engine.
+    Leading a group of Develops design/develop components, data layer, automation.
   website: https://example.com
 
 - company: Company B
@@ -43,24 +44,21 @@ education:
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
+- name: JavaScript/TypeScript
   level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
+- name: Cypress
+  level: 99
+- name: MongoDB
+  level: 99
 - name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Vue
+  level: 99
+- name: C#/C++
+  level: 99
+- name: SQL
+  level: 99
+knowledge: Specializing in Game Engine development. Proficient in software architecure design. Fluent in English and Chinese.
 
 projects:
 - name: best-resume-ever
@@ -85,12 +83,15 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: wilson96wu@gmail.com
+  phone: +27 725716932
+  street:
+  city: Durban, South Africa
+  website: https://wilson96wu.github.io/cv/
+
+  github:
+  linkedin: yanhao-wu-64131a61
+  linkedinFriendly: yanhao-wu
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

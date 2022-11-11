@@ -4,6 +4,11 @@
     <div class="shadow"></div>
     <div class="heading" id="myselfpic">
     </div>
+    <div class="description-personal">
+      <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
+      <hr class="solid divider">
+      <div class="description">{{person.position}}</div>     
+    </div>
     <div class="section-headline">
       {{ lang.contact }}
     </div>
@@ -64,6 +69,18 @@
       </div>
     </a>
 
+    <a v-if="person.contact.linkedin" :href="contactLinks.linkedin" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="text">
+          <span v-show="false">@{{person.contact.linkedin}}</span>
+          <span v-show="true">linkedin.com/in/{{person.contact.linkedin}}</span>
+        </div>
+      </div>
+    </a>
+
     <a v-if="person.contact.website" :href="person.contact.website" target="_blank">
       <div class="item">
         <div class="icon">
@@ -104,9 +121,8 @@
   </div>
 
   <div class="rightCol">
-    <div class="title">
-      <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
-      <div class="description">{{person.position}}</div>
+    <div class="title">      
+      <h2 class="description">{{lang.profile}}</h2>
       <span class="about">{{person.about}}</span>
     </div>
 
@@ -159,8 +175,9 @@ export default Vue.component(name, getVueOptions(name));
 
 .resume {
   font-family:'Roboto' !important;
-  background:#cccccc;
-  border-radius: 16%;
+  background:#f3f3f3;
+  border-radius: 2%;
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -172,16 +189,14 @@ a {
   }
 }
 .description-personal {
-  margin-left:20px;
-  margin-top:20px;
-  padding-right:40px;
-  text-align:justify;
+  text-align:center;
   font-family:Roboto;
 }
+
 .title {
   right:25px;
   padding-left:20px;
-  padding-top:10px;
+  padding-top:43px;
   bottom:25px;
   h2 {
     text-transform:uppercase;
@@ -290,6 +305,12 @@ h4 {
   line-height:20pt;
   opacity:1;
 }
+
+.divider{
+  width: 27px;
+  opacity: .3;
+}
+
 .rightCol {
   width:63.5%;
   height:100%;
@@ -302,8 +323,10 @@ h4 {
   .about {
     display: block;
     margin-top:8px !important;
-    font-weight:375;
+    margin-right: 12px;
+    font-weight:430;
     font-size: 16px;
+    text-align: justify;
     color:rgba(0,0,0,0.541176);
   }
   .block {
@@ -316,7 +339,7 @@ h4 {
     display:inline-block;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     .headline {
-      font-weight:300;
+      font-weight:400;
       display:block;
       font-size:15px;
       color:rgba(0,0,0,0.870588);
@@ -495,6 +518,7 @@ h4 {
   }
 }
 #myselfpic { 
+  margin-top: 20%;
   margin-left: auto;
   margin-right: auto;
   height: @picture-size;
